@@ -2,6 +2,6 @@ import uvicorn
 
 
 uvicorn.run(
-    'main:app',
+    'app.main:app',
     reload=True,
 )
